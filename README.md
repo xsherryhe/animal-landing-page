@@ -6,3 +6,6 @@ Image credits:
 
 1) Александар Цветановић: https://www.pexels.com/@lemonzandtea
 https://www.pexels.com/photo/orange-cat-foot-on-laptop-keyboard-1440387/
+
+2) Isolate Create: https://www.pexels.com/@isolate-create-2434553
+https://www.pexels.com/photo/panda-eating-green-and-brown-leaves-4062907/
