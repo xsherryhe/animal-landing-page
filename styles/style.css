@@ -165,3 +165,11 @@ a, .introduction .text > p {
 .sign-up > .container > .sign-up-button {
     border: #F9FAF8 solid 2px;
 }
+
+.footer {
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-weight: 300;
+}
