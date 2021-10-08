@@ -1,4 +1,4 @@
-body, .section, .daily-images-container {
+body, .section, .container {
     display: flex;
 }
 
@@ -10,12 +10,14 @@ body {
 }
 
 body > * {
-    padding: 0 10%;
+    padding: 72px 10%;
 }
 
 .header {
     justify-content: space-between;
     margin: 20px 0 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .header > .name {
@@ -42,8 +44,6 @@ a, .introduction .text > p {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    padding-top: 72px;
-    padding-bottom: 72px;
 }
 
 .introduction > * {
@@ -72,9 +72,8 @@ a, .introduction .text > p {
 
 .daily-images {
     flex-direction: column;
-    background-color: white;
+    background-color: #F9FAF8;
     padding-top: 36px;
-    padding-bottom: 72px;
     align-items: center;
     color: #1F2937;
 }
@@ -85,7 +84,7 @@ a, .introduction .text > p {
     margin: 0 0 36px 0;
 }
 
-.daily-images-container {
+.daily-images > .container {
     gap: 48px;
 }
 
@@ -112,7 +111,8 @@ a, .introduction .text > p {
 .quote {
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 72px 16%;
+    padding-left: 16%;
+    padding-right: 16%;
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
@@ -128,4 +128,28 @@ a, .introduction .text > p {
     font-style: normal;
     font-weight: 900;
     margin-top: 20px;
+}
+
+.sign-up {
+    background-color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up > .container {
+    background-color: #3882F6;
+    flex: 1;
+    justify-content: space-around;
+    padding: 42px 0;
+    border-radius: 5px;
+}
+
+.sign-up > .container * {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up h1 {
+    font-size: 24px;
+    font-weight: 900;
 }
