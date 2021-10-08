@@ -10,7 +10,7 @@ body {
 }
 
 body > * {
-    padding: 0 12%;
+    padding: 0 10%;
 }
 
 .header {
@@ -57,7 +57,7 @@ a, .introduction .text > p {
 .introduction > .text > h1 {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: extra-bold;
+    font-weight: 900;
 }
 
 .sign-up-button {
@@ -74,14 +74,14 @@ a, .introduction .text > p {
     flex-direction: column;
     background-color: white;
     padding-top: 36px;
-    padding-bottom: 36px;
+    padding-bottom: 72px;
     align-items: center;
     color: #1F2937;
 }
 
 .daily-images > h1 {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 900;
     margin: 0 0 36px 0;
 }
 
@@ -107,4 +107,25 @@ a, .introduction .text > p {
 .daily-image > p {
     margin: 4px;
     text-align: center;
+}
+
+.quote {
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 72px 16%;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote > p {
+    margin: 0;
+}
+.quote > .source {
+    text-align: right;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 20px;
 }
