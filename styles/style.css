@@ -1,4 +1,4 @@
-body, .section {
+body, .section, .daily-images-container {
     display: flex;
 }
 
@@ -15,7 +15,7 @@ body > * {
 
 .header {
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 
 .header > .name {
@@ -42,16 +42,16 @@ a, .introduction .text > p {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    margin: 72px 0;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 
 .introduction > * {
     width: 400px;
-    height: 100%;
 }
 
 .introduction > .text > * {
-    margin: 0 0 12px 0;
+    margin: 0 0 14px 0;
 }
 
 .introduction > .text > h1 {
@@ -71,5 +71,40 @@ a, .introduction .text > p {
 }
 
 .daily-images {
+    flex-direction: column;
     background-color: white;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    align-items: center;
+    color: #1F2937;
+}
+
+.daily-images > h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin: 0 0 36px 0;
+}
+
+.daily-images-container {
+    gap: 48px;
+}
+
+.daily-image {
+    width: 170px;
+}
+.daily-image > img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: #3882F6 solid;
+    border-radius: 12px;
+}
+
+#eating-panda {
+    object-position: 100% 0%;
+}
+
+.daily-image > p {
+    margin: 4px;
+    text-align: center;
 }
