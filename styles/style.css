@@ -176,7 +176,7 @@ a, .introduction .text > p {
 }
 
 .footer {
-    padding: 12px;
+    padding: 0;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
