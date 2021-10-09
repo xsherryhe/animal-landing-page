@@ -1,4 +1,4 @@
-body, .section, .container {
+body, header, nav, section, footer, .container {
     display: flex;
 }
 
@@ -14,7 +14,7 @@ body > * {
     padding: 72px 10%;
 }
 
-.header {
+header {
     justify-content: space-between;
     align-items: center;
     margin: 16px 0 0 0;
@@ -22,25 +22,23 @@ body > * {
     padding-bottom: 0;
 }
 
-.header > .logo {
+header > .logo {
     align-items: center;
     gap: 10px;
 }
 
-.header > .logo > .name {
+header > .logo > h1 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    margin: 0;
 }
 
 .logo-image {
     width: 36px;
 }
 
-.header > .links {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+header > nav {
     gap: 30px;
 }
 
@@ -98,6 +96,7 @@ a, .introduction .text > p {
 }
 
 .daily-image {
+    margin: 0;
     width: 180px;
 }
 .daily-image > img {
@@ -112,7 +111,7 @@ a, .introduction .text > p {
     object-position: 100% 0%;
 }
 
-.daily-image > p {
+.daily-image > figcaption {
     margin: 4px;
     text-align: center;
 }
@@ -175,7 +174,7 @@ a, .introduction .text > p {
     border: #F9FAF8 solid 2px;
 }
 
-.footer {
+footer {
     padding: 0;
     justify-content: center;
     align-items: center;
