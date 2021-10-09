@@ -18,3 +18,6 @@ https://www.pexels.com/photo/panda-sitting-on-top-of-a-wood-8162930/
 
 5) Michael Noel: https://www.pexels.com/@michael-noel-3068524
 https://www.pexels.com/photo/white-and-black-panda-on-brown-tree-trunk-4741848/
+
+6) OpenClipart-Vectors: https://pixabay.com/users/openclipart-vectors-30363/
+https://pixabay.com/vectors/kitty-cuddling-cat-kitten-feline-151949/
