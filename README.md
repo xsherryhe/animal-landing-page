@@ -8,7 +8,7 @@ The project primarily demonstrates basic CSS tools and skills including common e
 
 ## Preview
 
-![Animal landing page preview](./images/preview.png)
+[![Animal landing page preview](./images/preview.png)](https://xsherryhe.github.io/animal-landing-page/)
 
 Run this project [here](https://xsherryhe.github.io/animal-landing-page/).
 
