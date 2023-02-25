@@ -12,7 +12,7 @@ The project primarily demonstrates basic CSS tools and skills including common e
 
 Run this project [here](https://xsherryhe.github.io/animal-landing-page/).
 
-Image credits:
+## Image Credits
 
 1) Александар Цветановић: https://www.pexels.com/@lemonzandtea
 https://www.pexels.com/photo/orange-cat-foot-on-laptop-keyboard-1440387/
